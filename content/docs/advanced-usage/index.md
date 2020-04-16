@@ -5,14 +5,15 @@ weight: 3
 
 ## Using subdomains
 
-As an AppArea user, you also can create arbitrary subdomains!
+As an AppArea user, you also can create arbitrary subdomains (as long as they
+end in your username)!
 
 Using the helper script, you can specify the `--subdomain` flag to specify a
 subdomain of your username.
 
 ```bash
 > apparea http 8000 --subdomain foo
->>> Listening on http://foo.user.apparea.dev
+>>> Listening on http://foo-user.apparea.dev
 ```
 
 ## Connecting without helper script
