@@ -1,6 +1,6 @@
 # AppArea site
 
-The site for [apparea.dev](https://github.com/jedevc/apparea)!
+The site for [apparea.dev](https://apparea.dev)!
 
 For the actual AppArea code, see [jedevc/apparea](https://github.com/jedevc/apparea).
 
