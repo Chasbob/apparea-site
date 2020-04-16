@@ -6,6 +6,14 @@ weight: 2
 AppArea is incredibly easy to get setup with! However, this is a minimal
 setup, and there are more complex configurations available if you want.
 
+---
+
+__Important!__ Make sure that you give your username and key to the
+administrator of the server before you get started, or you won't be able to
+connect.
+
+## Install
+
 To get started, download the client helper script:
 
 ```bash
@@ -49,9 +57,7 @@ Note that the last step (installing the script to `/usr/local/bin`), is
 completely optional, and you can choose to copy the script to your own
 location of choice, or even not install it globally at all.
 
-__Important!__ Make sure that you give your username and key to the
-administrator of the server before your continue further, or you won't be
-able to connect.
+## Usage
 
 Connecting and casting a port is super easy now:
 
