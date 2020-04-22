@@ -44,3 +44,20 @@ To cast TCP from port 4000:
 ```bash
 > ssh -R 0.0.0.0:0:localhost:4000 -p 21 user@apparea.dev
 ```
+
+## Forwarding a remote host
+
+Since the tunnel is being created by SSH remote forwarding you can also
+point the tunnel any remote service you can access.
+
+To cast from port 8000 on the hostname `server.lan`
+
+```bash
+> ssh -R 0.0.0.0:80:server.lan:8000 -p 21 user@apparea.dev
+```
+
+### Caveats
+Note that all requests made to `server.lan` over the tunnel will have
+the Host header of `user.apparea.dev` which may cause issues if
+the remote service is doing any form of hostname based routing.
+If this is a service you control then you simply need to add `user.apparea.dev` as an expected hostname.
