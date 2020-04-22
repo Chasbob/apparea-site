@@ -1,6 +1,8 @@
 ---
 title: 'Advanced usage'
-weight: 3
+weight: 4
+summary: |
+    Get more out of your AppArea usage with a number of advanced features!
 ---
 
 ## Using subdomains
@@ -29,6 +31,12 @@ To cast HTTP from port 8000:
 
 ```bash
 > ssh -R 0.0.0.0:80:localhost:8000 -p 21 user@apparea.dev
+```
+
+To cast HTTPS from port 8000:
+
+```bash
+> ssh -R 0.0.0.0:443:localhost:8000 -p 21 user@apparea.dev
 ```
 
 To cast TCP from port 4000:

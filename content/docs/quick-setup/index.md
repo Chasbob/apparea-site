@@ -1,6 +1,8 @@
 ---
 title: 'Quick setup'
 weight: 2
+summary: |
+    Start your journey with AppArea here.
 ---
 
 AppArea is incredibly easy to get setup with! However, this is a minimal
@@ -69,17 +71,3 @@ Connecting and casting a port is super easy now:
 If you visit the given URL, you should then be able to see your site that's
 listening on your localhost on port 8000! You can then stop casting by
 causing a keyboard interrupt by pressing `CTRL+C`.
-
-You can also cast raw TCP ports:
-
-```bash
-> apparea tcp 4000
->>> Listening on user.apparea.dev:?????
-```
-
-This casts the localhost port 4000 to a randomized port on the AppArea
-server.
-
-Now you've properly got AppArea setup! If that's all you want it for, you're
-all done, however, if you want more advanced configuration, you can continue
-looking through the docs!
